@@ -35,8 +35,14 @@ Bu proje ile kullanıcı memnuniyeti artırılacak ve personelin üzerindeki yü
 
 ## 📁 Dosya Yapısı
 chatbot/
+
+
 ├── index.html → Ana HTML dosyası
+
+
 ├── style.css → Stil dosyası
+
+
 ├── app.js → JavaScript uygulama dosyası
 
 ## 🌐 Canlı Uygulama
