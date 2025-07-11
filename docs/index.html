@@ -66,9 +66,16 @@
             margin-top: 0.8rem;
             border-radius: 6px;
             background: #34495e;
-            display: inline-block;
+            display: block;
         }
-                .contributors {
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+
+        .contributors {
             margin-top: 1.5rem;
             padding-top: 1rem;
             border-top: 1px solid rgba(0,0,0,0.1);
@@ -95,6 +102,10 @@
         .contributors a:hover {
             text-decoration: underline;
         }
+        .buttons a:nth-child(2) {
+            background: #0077B5;
+        }
+
     </style>
 </head>
 <body>
@@ -105,9 +116,12 @@
     <div class="emoji">👩‍💻</div>
     <h1>Hoş Geldiniz!</h1>
     <h2>Talya Staj Projesi</h2>
-    <p>Ben <strong>Göksun Gürel</strong> ve Talya’da staj yapıyorum.</p>
+    <p>Ben Göksun Gürel. İzmir Ekonomi Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim.</p>
+    <p>Yapay zeka alanında kariyer düşünüyorum. Stajım boyunca bu alanda projeler üreteceğim.</p>
+
     <div class="buttons">
         <a href="https://github.com/goksungurel/TalyaStaj-2025" target="_blank">GitHub Repo</a>
+        <a href="https://www.linkedin.com/in/goksungurel/" target="_blank">LinkedIn</a>
     </div>
     <!-- Katkıda Bulunanlar Bölümü -->
     <div class="contributors">
