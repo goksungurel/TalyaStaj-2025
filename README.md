@@ -61,4 +61,4 @@ chatbot/
 - Mehmet Can Özen 
 - İnci Aliyeva 
 - Alperen Ulukaya
-- Talat 
+- Musa Talat Demir
