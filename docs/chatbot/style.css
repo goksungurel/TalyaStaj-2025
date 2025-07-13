@@ -68,4 +68,9 @@ body {
     padding: 10px 15px;
     cursor: pointer;
 }
+.chat-input button#mic-btn {
+    background: #198754;
+    margin-left: 5px;
+}
+
 
