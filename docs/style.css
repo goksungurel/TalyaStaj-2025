@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: black;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    background: rgb(197, 225, 197);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.emoji {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+h2 {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-top: 0.8rem;
+    border-radius: 6px;
+    background: #34495e; /* Tüm butonlar için koyu */
+    display: block;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.buttons a[href*="linkedin.com"] {
+    background-color: #0077B5; /* LinkedIn mavisi */
+}
+
+
+.contributors {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.contributors h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.contributors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.contributors ul li {
+    margin-bottom: 0.25rem;
+}
+
+.contributors a {
+    color: #34495e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contributors a:hover {
+    text-decoration: underline;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.button-group a {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 0.3rem;
+    background-color: #3498db;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+/* Tüm butonlar koyu renk */
+.button-group a,
+.buttons > a {
+    background-color: #34495e !important;
+    color: #fff;
+    text-align: center;
+}
+
+/* SADECE LinkedIn butonu mavi olsun */
+.buttons > a[href*="linkedin.com"] {
+    background-color: #0077B5 !important;
+}

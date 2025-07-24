@@ -4,109 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoş Geldiniz — Göksun Gürel</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            font-family: 'Segoe UI', sans-serif;
-        }
-
-        canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 0;
-            background: black;
-        }
-
-        .card {
-            position: relative;
-            z-index: 1;
-            background: rgb(197, 225, 197);
-            border-radius: 16px;
-            padding: 2rem;
-            text-align: center;
-            max-width: 400px;
-            margin: auto;
-            top: 50%;
-            transform: translateY(-50%);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-
-        .emoji {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 1.8rem;
-            color: #2c3e50;
-        }
-
-        h2 {
-            margin: 0.5rem 0 1rem 0;
-            font-size: 1rem;
-            color: #7f8c8d;
-        }
-
-        p {
-            margin-bottom: 1rem;
-            color: #555;
-        }
-
-        .buttons a {
-            text-decoration: none;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            margin-top: 0.8rem;
-            border-radius: 6px;
-            background: #34495e;
-            display: block;
-        }
-        .buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-
-
-        .contributors {
-            margin-top: 1.5rem;
-            padding-top: 1rem;
-            border-top: 1px solid rgba(0,0,0,0.1);
-        }
-        .contributors h4 {
-            margin: 0 0 0.5rem 0;
-            font-size: 0.9rem;
-            color: #7f8c8d;
-        }
-        .contributors ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            font-size: 0.9rem;
-        }
-        .contributors ul li {
-            margin-bottom: 0.25rem;
-        }
-        .contributors a {
-            color: #34495e;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .contributors a:hover {
-            text-decoration: underline;
-        }
-        .buttons a:nth-child(2) {
-            background: #0077B5;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -120,11 +18,20 @@
     <p>Yapay zeka alanında kariyer düşünüyorum. Stajım boyunca bu alanda projeler üreteceğim.</p>
 
     <div class="buttons">
-        <a href="https://github.com/goksungurel/TalyaStaj-2025" target="_blank">GitHub Repo</a>
-        <a href="chatbot/index.html" target="_blank">Chatbot Uygulaması</a>
+
+        <div class="button-group">
+            <a href="chatbot/index.html" target="_blank">Chatbot Uygulaması</a>
+            <a href="https://github.com/goksungurel/chatbot-repo" target="_blank">Chatbot GitHub Repo</a>
+        </div>
+
+        <div class="button-group">
+            <a href="https://canlidemo-link.com" target="_blank">AI API Uygulaması</a>
+            <a href="https://github.com/goksungurel/al-api-repo" target="_blank">AI API GitHub Repo</a>
+        </div>
+
         <a href="https://www.linkedin.com/in/goksungurel/" target="_blank">LinkedIn</a>
     </div>
-    <!-- Katkıda Bulunanlar Bölümü -->
+
     <div class="contributors">
         <h4>Katkıda Bulunanlar</h4>
         <ul>
@@ -134,11 +41,10 @@
             <li><a href="https://github.com/Talatd" target="_blank">MUSA TALAT DEMİR</a></li>
         </ul>
     </div>
+
     <footer style="margin-top: 1rem; font-size: 0.8rem; color: #0e0303;">
         © 2025 Talya Staj Projesi — Tüm hakları saklıdır.
     </footer>
-
-
 </div>
 
 <script>
@@ -183,4 +89,3 @@
 
 </body>
 </html>
-  bu mudur son hal
